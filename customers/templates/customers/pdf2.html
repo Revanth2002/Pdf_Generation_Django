@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pdf Test Demo</title>
+    </head>
+<body>
+    Name:{{customer}}
+    <hr>
+    Description :{{customer.description | linebreaks}}
+    <hr>
+    Updated : {{customer.updated | linebreaks}}
+    <hr>
+    Created : {{customer.created | linebreaks}}
+    <hr>
+    Logo : {{customer.logo}}
+    <hr>
+    Logo Url: {{customer.logo.url}}
+    <hr>
+    Logo Path: {{customer.logo.path }} 
+    
+    <img src= {{customer.logo.pathl}} height="200px">
+</body>
+</html>
